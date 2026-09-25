@@ -1,15 +1,18 @@
 -- PA1 - Tienda de Ropa | Parte 1: modelo de datos (Andy)
 
+-- Crear la base si no existe
 IF DB_ID('PA1_TiendaRopa') IS NULL
     CREATE DATABASE PA1_TiendaRopa;
 GO
 
+-- Propietario sa: evita error del diagrama al restaurar en otra PC
 ALTER AUTHORIZATION ON DATABASE::PA1_TiendaRopa TO sa;
 GO
 
 USE PA1_TiendaRopa;
 GO
 
+-- Borrar en orden inverso por las FK (hijas primero)
 IF OBJECT_ID('dbo.DetalleVenta','U') IS NOT NULL DROP TABLE dbo.DetalleVenta;
 IF OBJECT_ID('dbo.Venta','U')        IS NOT NULL DROP TABLE dbo.Venta;
 IF OBJECT_ID('dbo.Producto','U')     IS NOT NULL DROP TABLE dbo.Producto;
@@ -17,6 +20,7 @@ IF OBJECT_ID('dbo.Categoria','U')    IS NOT NULL DROP TABLE dbo.Categoria;
 IF OBJECT_ID('dbo.Cliente','U')      IS NOT NULL DROP TABLE dbo.Cliente;
 GO
 
+-- Tablas maestras
 CREATE TABLE dbo.Cliente (
     ClienteID      INT IDENTITY(1,1) NOT NULL,
     DNI            VARCHAR(8)   NOT NULL,
@@ -53,6 +57,7 @@ CREATE TABLE dbo.Producto (
 );
 GO
 
+-- Tablas de ventas
 CREATE TABLE dbo.Venta (
     VentaID     INT IDENTITY(1,1) NOT NULL,
     ClienteID   INT          NOT NULL,
@@ -64,6 +69,7 @@ CREATE TABLE dbo.Venta (
 );
 GO
 
+-- Puente entre Venta y Producto
 CREATE TABLE dbo.DetalleVenta (
     VentaID         INT            NOT NULL,
     ProductoID      INT            NOT NULL,
