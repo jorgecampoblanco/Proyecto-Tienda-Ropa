@@ -1,11 +1,7 @@
--- PA1 - Tienda de Ropa | Parte 1: modelo de datos (Andy)
-
--- Crear la base si no existe
-IF DB_ID('PA1_TiendaRopa') IS NULL
-    CREATE DATABASE PA1_TiendaRopa;
-GO
+-- PA1 - Tienda de Ropa |modelo de datos 
 
 -- Propietario sa: evita error del diagrama al restaurar en otra PC
+
 ALTER AUTHORIZATION ON DATABASE::PA1_TiendaRopa TO sa;
 GO
 
