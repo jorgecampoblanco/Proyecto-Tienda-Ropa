@@ -1,2 +1,21 @@
-# Proyecto-Tienda
-<img width="700" height="553" alt="image" src="https://github.com/user-attachments/assets/4ef18b5a-ac13-4d8a-a595-6aafc955d9c4" />
+## Sistema de ventas e inventario para una tienda de ropa
+
+## Integrantes
+
+## Descripción
+
+## Objetivo
+
+## Desarrollo
+
+## Solución propuesta
+
+## Cómo ejecutar o revisar el proyecto
+
+## Evidencias
+
+## Conclusiones
+
+## Video de exposición
+
+Video público de YouTube:
