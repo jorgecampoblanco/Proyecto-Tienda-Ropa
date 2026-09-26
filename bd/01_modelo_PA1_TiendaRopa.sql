@@ -1,4 +1,3 @@
--- PA1 - Tienda de Ropa |modelo de datos 
 
 -- Propietario sa: evita error del diagrama al restaurar en otra PC
 
@@ -23,7 +22,7 @@ CREATE TABLE dbo.Cliente (
     Nombre         VARCHAR(80)  NOT NULL,
     Correo         VARCHAR(100) NULL,
     Ciudad         VARCHAR(50)  NULL,
-    FechaRegistro  DATE         NULL CONSTRAINT DF_Cliente_FechaRegistro DEFAULT (GETDATE()),
+    FechaRegistro  DATE         NOT NULL CONSTRAINT DF_Cliente_FechaRegistro DEFAULT (GETDATE()),
     CONSTRAINT PK_Cliente     PRIMARY KEY (ClienteID),
     CONSTRAINT UQ_Cliente_DNI UNIQUE (DNI)
 );
