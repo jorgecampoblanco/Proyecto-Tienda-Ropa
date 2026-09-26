@@ -13,7 +13,6 @@
 ## Cómo ejecutar o revisar el proyecto
 
 ## Evidencias
-## Evidencias
 
 ### Diagrama de la base de datos
 
