@@ -1,14 +1,6 @@
 USE PA1_TiendaRopa;
 go
 
-/* Eliminar tablas si ya existen, para poder ejecutar nuevamente */
-IF OBJECT_ID('dbo.DetalleVenta', 'U') IS NOT NULL DROP TABLE dbo.DetalleVenta;
-IF OBJECT_ID('dbo.Venta', 'U') IS NOT NULL DROP TABLE dbo.Venta;
-IF OBJECT_ID('dbo.Producto', 'U') IS NOT NULL DROP TABLE dbo.Producto;
-IF OBJECT_ID('dbo.Categoria', 'U') IS NOT NULL DROP TABLE dbo.Categoria;
-IF OBJECT_ID('dbo.Cliente', 'U') IS NOT NULL DROP TABLE dbo.Cliente;
-GO
-
 /* ============================================================
    1. TABLA CLIENTE
    ============================================================ */
