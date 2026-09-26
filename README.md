@@ -97,10 +97,6 @@ Los filtros permiten localizar productos por nombre o rango de precio. Las agreg
 
 ![Resultado de producto sin stock](Consultas%20b%C3%A1sicas/Evidencias%20de%20las%20consultas/producto%20sin%20stock.png)
 
-**Video en youtube**
-
-https://youtu.be/YUuS07AEKTY?si=fCY6ZmrBOguycfZR
-
 ## Conclusiones
 
 El modelo relaciona clientes, productos y ventas mediante claves que permiten consultar los datos sin duplicar su estructura. Las restricciones rechazan registros inválidos y los datos de prueba permiten comprobar casos como un cliente sin ventas y un producto sin existencias. Las consultas con filtros, agrupación, uniones y subconsultas responden preguntas distintas sobre la tienda; comparar `EXISTS` con `INNER JOIN` ayuda a entender por qué una misma necesidad puede resolverse de varias maneras.
@@ -110,3 +106,9 @@ El modelo relaciona clientes, productos y ventas mediante claves que permiten co
 Profesor, disculpe que no hayamos podido subir la exposición a YouTube. Ninguno de los integrantes del grupo tiene una cuenta verificada, por lo que tuvimos dificultades para publicar el video. Para que pueda revisarlo, lo subimos a Google Drive:
 
 https://drive.google.com/drive/u/0/folders/1mxd989WK-6qh5mBuvgrG0H99LV2OuJ4Y
+
+## Video en Youtube
+
+Ya hemos podido verificar un canal para subir el video en youtube. Es el mismo video que esta en el google drive.
+
+https://youtu.be/YUuS07AEKTY?si=fCY6ZmrBOguycfZR
