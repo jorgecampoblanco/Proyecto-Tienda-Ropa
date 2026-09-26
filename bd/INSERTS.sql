@@ -49,8 +49,8 @@ VALUES
 (4, 'Vestido Casual',            'M',  'Rosa',  129.90,  9, 1),
 (4, 'Vestido Elegante',          'S',  'Negro', 159.90,  7, 1),
 (5, 'Gorra Clasica',             'U',  'Negro',  29.90, 40, 1),
-(5, 'Cartera Mediana',           'U',  'Marron',  89.90, 14, 1),
-(5, 'Bufanda Tejida',            'U',  'Gris',    35.90, 22, 1);
+(5, 'Bufanda Tejida',            'U', 'Gris',  35.90, 22, 1),
+(5, 'Cinturon Clasico',           'U', 'Negro', 49.90,  0, 1);
 GO
 
 /* ============================================================
