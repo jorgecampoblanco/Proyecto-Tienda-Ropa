@@ -93,7 +93,7 @@ Los filtros permiten localizar productos por nombre o rango de precio. Las agreg
 
 ![Consulta HAVING](Consultas%20b%C3%A1sicas/Evidencias%20de%20las%20consultas/Consulta%20Having.jpg)
 
-Las consultas de restricciones, uniones, subconsultas y stock 0 están disponibles en sus respectivos scripts. Sus capturas de ejecución se pueden añadir a esta sección cuando el equipo las prepare.
+![Resultado de producto sin stock](evidencias/producto%20sin%20stock.png)
 
 ## Conclusiones
 
