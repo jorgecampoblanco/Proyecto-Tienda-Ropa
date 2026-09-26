@@ -1,7 +1,7 @@
 # PA1 — Programación Avanzada de Base de Datos
 
 ## Caso: sistema de ventas e inventario para una tienda de ropa
-**Curso:** Programación Avanzada de Base de Datos (30627)
+**Curso:** Programación Avanzada de Base de Datos (4606)
 
 ## Integrantes
 
