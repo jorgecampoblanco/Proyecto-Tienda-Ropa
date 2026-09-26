@@ -38,6 +38,7 @@ SELECT
 FROM Cliente c
 INNER JOIN Venta v        ON c.ClienteID = v.ClienteID
 INNER JOIN DetalleVenta dv ON v.VentaID  = dv.VentaID
+WHERE v.Estado = 'PAGADA'
 GROUP BY c.ClienteID, c.Nombre
 ORDER BY TotalComprado DESC;
 GO
