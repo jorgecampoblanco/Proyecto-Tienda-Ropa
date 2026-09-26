@@ -1,20 +1,17 @@
-# PA1 — Sistema de ventas e inventario para una tienda de ropa
+# PA1 — Programación Avanzada de Base de Datos
 
-**Curso:** Programación Avanzada de Base de Datos (30627)  
-**Evaluación:** PA1 — Proceso de Aprendizaje 1  
-**Motor de base de datos:** Microsoft SQL Server
+## Caso: sistema de ventas e inventario para una tienda de ropa
+**Curso:** Programación Avanzada de Base de Datos (30627)
 
 ## Integrantes
 
 | Integrante | Participación |
 | --- | --- |
-| Andy [completar apellidos] | Modelo de datos, relaciones y diagrama. |
-| Lucero [completar apellidos] | Creación de tablas y pruebas de restricciones. |
-| Farid [completar apellidos] | Consultas básicas, funciones y agregaciones. |
-| Fernando [completar apellidos] | Consultas multitabla, `CASE` y `UNION`. |
-| Jorge Campoblanco | Subconsultas, `EXISTS` y documentación. |
-
-> Antes de entregar, completen los nombres y apellidos tal como figuran en la lista del grupo.
+| Andy Alexandre Lescano Espino  | Modelo de datos, relaciones y diagrama 100% |
+| Lucero Helen Corrales Granda  | Creación de tablas y pruebas de restricciones 100% |
+| Farid Alessandro Mori Barrientos | Consultas básicas, funciones y agregaciones 100%|
+| Fernando Álvaro Quispe Trigos | Consultas multitabla, `CASE` y `UNION` 100% |
+| Jorge Raúl Campoblanco Noriega   | Subconsultas, `EXISTS` y documentación 100%|
 
 ## Descripción
 
@@ -49,13 +46,12 @@ Los filtros permiten localizar productos por nombre o rango de precio. Las agreg
 ## Cómo ejecutar o revisar el proyecto
 
 1. Abrir Microsoft SQL Server Management Studio y conectarse a una instancia de SQL Server.
-2. Crear una base de datos vacía llamada `PA1_TiendaRopa` si todavía no existe. También se incluye [`bd/PA1_TiendaRopa.bak`](bd/PA1_TiendaRopa.bak) como respaldo alternativo para restauración; **no mezclar la restauración con la creación y carga de tablas en la misma base**.
+2. Crear una base de datos vacía llamada `PA1_TiendaRopa` si todavía no existe. También se incluye [`bd/PA1_TiendaRopa.bak`](bd/PA1_TiendaRopa.bak) como respaldo alternativo para restauración
 3. En una base vacía, ejecutar **solo** [`bd/CREACION DE TABLAS.sql`](bd/CREACION%20DE%20TABLAS.sql) para crear las tablas. No ejecutar también `01_modelo_PA1_TiendaRopa.sql`: ese archivo contiene otra creación de las mismas tablas y sentencias `DROP TABLE` que eliminan datos existentes.
 4. Ejecutar [`bd/INSERTS.sql`](bd/INSERTS.sql) una sola vez, en una base sin esos datos. Sus últimos `SELECT` permiten revisar los registros cargados.
 5. Ejecutar los archivos de consultas básicas, avanzadas y subconsultas por separado. Para comprobar el producto agotado, consultar `Producto` con `WHERE Stock = 0` y ejecutar la consulta `CASE` sobre stock del archivo de consultas avanzadas.
 6. Ejecutar las instrucciones de [`bd/RESTRICCIONES.sql`](bd/RESTRICCIONES.sql) **por separado**. Los errores de esas inserciones son esperados: demuestran que las restricciones impiden datos inválidos.
 
-**Nota:** editar los archivos SQL del repositorio no modifica por sí solo una base ya cargada ni actualiza el archivo `.bak`. El respaldo debe corresponder a la versión que se presente como final.
 
 ## Evidencias
 
@@ -105,6 +101,4 @@ El modelo relaciona clientes, productos y ventas mediante claves que permiten co
 
 ## Video de exposición
 
-**Video público de YouTube:** [PEGAR AQUÍ EL ENLACE]
-
-En la exposición se presenta el problema, el modelo, las pruebas de integridad, las consultas y sus resultados. Cada integrante explica su parte y cómo se relaciona con los contenidos trabajados en las sesiones 1 a 4.
+**Video público de YouTube:** 
