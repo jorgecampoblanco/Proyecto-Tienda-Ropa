@@ -103,4 +103,6 @@ El modelo relaciona clientes, productos y ventas mediante claves que permiten co
 
 ## Video de exposición
 
-**Video público de YouTube:** 
+Profesor, disculpe que no hayamos podido subir la exposición a YouTube. Ninguno de los integrantes del grupo tiene una cuenta verificada, por lo que tuvimos dificultades para publicar el video. Para que pueda revisarlo, lo subimos a Google Drive:
+
+https://drive.google.com/drive/u/0/folders/1mxd989WK-6qh5mBuvgrG0H99LV2OuJ4Y
