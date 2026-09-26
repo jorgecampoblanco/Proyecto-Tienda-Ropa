@@ -46,7 +46,7 @@ Los filtros permiten localizar productos por nombre o rango de precio. Las agreg
 ## Cómo ejecutar o revisar el proyecto
 
 1. Abrir Microsoft SQL Server Management Studio y conectarse a una instancia de SQL Server.
-2. Crear una base de datos vacía llamada `PA1_TiendaRopa` si todavía no existe. También se incluye [`bd/PA1_TiendaRopa_final.bak`](bd/PA1_TiendaRopa_final.bak) como respaldo alternativo para restauración
+2. Crear una base de datos vacía llamada `PA1_TiendaRopa` si todavía no existe. También se incluye [bd/PA1_TiendaRopa.bak](bd/PA1_TiendaRopa.bak) como respaldo alternativo para restauración
 3. En una base vacía, ejecutar **solo** [`bd/CREACION DE TABLAS.sql`](bd/CREACION%20DE%20TABLAS.sql) para crear las tablas. No ejecutar también `01_modelo_PA1_TiendaRopa.sql`: ese archivo contiene otra creación de las mismas tablas y sentencias `DROP TABLE` que eliminan datos existentes.
 4. Ejecutar [`bd/INSERTS.sql`](bd/INSERTS.sql) una sola vez, en una base sin esos datos. Sus últimos `SELECT` permiten revisar los registros cargados.
 5. Ejecutar los archivos de consultas básicas, avanzadas y subconsultas por separado. Para comprobar el producto agotado, consultar `Producto` con `WHERE Stock = 0` y ejecutar la consulta `CASE` sobre stock del archivo de consultas avanzadas.
