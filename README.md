@@ -93,7 +93,9 @@ Los filtros permiten localizar productos por nombre o rango de precio. Las agreg
 
 ![Consulta HAVING](Consultas%20b%C3%A1sicas/Evidencias%20de%20las%20consultas/Consulta%20Having.jpg)
 
-![Resultado de producto sin stock](evidencias/producto%20sin%20stock.png)
+**Producto sin stock**
+
+![Resultado de producto sin stock](Consultas%20b%C3%A1sicas/Evidencias%20de%20las%20consultas/producto%20sin%20stock.png)
 
 ## Conclusiones
 
