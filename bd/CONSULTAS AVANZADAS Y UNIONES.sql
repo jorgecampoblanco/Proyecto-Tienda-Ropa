@@ -1,7 +1,3 @@
-
--- PA1_TiendaRopa - Consultas avanzadas y uniones
--- INNER JOIN | LEFT/RIGHT JOIN | CASE | UNION
-
 USE PA1_TiendaRopa;
 GO
 
